@@ -1,0 +1,10 @@
+.realButton{
+  box-shadow: 2px 2px 2px gray;
+}
+
+.realButton:active{
+  transform: translate(2px, 2px);
+  box-shadow: 0px 0px 0px;
+  background-color: inherit;
+  outline: none;
+}
